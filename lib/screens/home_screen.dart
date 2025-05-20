@@ -1,10 +1,10 @@
 // screens/home_screen.dart (Updated for Multiplayer Support)
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tap_the_color/models/game_settings.dart';
-import 'package:tap_the_color/screens/game_screen.dart';
-import 'package:tap_the_color/screens/multiplayer_setup_screen.dart';
-import 'package:tap_the_color/screens/settings_screen.dart';
+import '../models/game_settings.dart';
+import './game_screen.dart';
+import './multiplayer_setup_screen.dart';
+import './settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final Function(bool) updateTheme;

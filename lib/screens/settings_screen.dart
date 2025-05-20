@@ -1,7 +1,7 @@
 // screens/settings_screen.dart (Updated for Multiplayer)
 import 'package:flutter/material.dart';
-import 'package:tap_the_color/models/game_settings.dart';
-import 'package:tap_the_color/utils/color_utils.dart';
+import '../models/game_settings.dart';
+import '../utils/color_utils.dart';
 
 class SettingsScreen extends StatefulWidget {
   final GameSettings settings;

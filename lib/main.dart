@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tap_the_color/screens/home_screen.dart';
-import 'package:tap_the_color/screens/splash_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());

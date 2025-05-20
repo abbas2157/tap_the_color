@@ -1,5 +1,5 @@
-name: tap_the_color
-description: "A new Flutter project."
+name: TapTheColor
+description: "Tap the Color is a fast-paced reflex game that dares you to tap the correct color under pressure"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+1
+version: 1.0.0+5
 
 environment:
   sdk: ^3.7.0
@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.2.2
   audioplayers: ^5.2.1 # Optional for sound effects
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.6
 
 dev_dependencies:
   flutter_test:

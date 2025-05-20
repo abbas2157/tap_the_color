@@ -2,7 +2,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:tap_the_color/models/player.dart';
+import '../models/player.dart';
 
 class MultiplayerResultScreen extends StatefulWidget {
   final List<Player> players;

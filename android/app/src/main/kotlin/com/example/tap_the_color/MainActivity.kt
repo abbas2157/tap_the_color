@@ -1,4 +1,4 @@
-package com.example.tap_the_color
+package com.mudassarabbas.tap_the_color
 
 import io.flutter.embedding.android.FlutterActivity
 

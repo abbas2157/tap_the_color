@@ -3,10 +3,10 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:tap_the_color/models/game_settings.dart';
-import 'package:tap_the_color/models/player.dart';
-import 'package:tap_the_color/screens/multiplayer_result_screen.dart';
-import 'package:tap_the_color/utils/color_utils.dart';
+import '../models/game_settings.dart';
+import '../models/player.dart';
+import '../screens/multiplayer_result_screen.dart';
+import '../utils/color_utils.dart';
 
 class MultiplayerGameScreen extends StatefulWidget {
   final GameSettings settings;

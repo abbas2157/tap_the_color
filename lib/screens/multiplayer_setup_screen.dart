@@ -1,8 +1,8 @@
 // screens/multiplayer_setup_screen.dart
 import 'package:flutter/material.dart';
-import 'package:tap_the_color/models/game_settings.dart';
-import 'package:tap_the_color/models/player.dart';
-import 'package:tap_the_color/screens/multiplayer_game_screen.dart';
+import '../models/game_settings.dart';
+import '../models/player.dart';
+import '../screens/multiplayer_game_screen.dart';
 
 class MultiplayerSetupScreen extends StatefulWidget {
   final GameSettings settings;

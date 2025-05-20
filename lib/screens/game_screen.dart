@@ -3,9 +3,9 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:tap_the_color/models/game_settings.dart';
-import 'package:tap_the_color/screens/game_over_screen.dart';
-import 'package:tap_the_color/utils/color_utils.dart';
+import '../utils/color_utils.dart';
+import '../models/game_settings.dart';
+import './game_over_screen.dart';
 
 class GameScreen extends StatefulWidget {
   final GameSettings settings;
